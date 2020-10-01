@@ -114,3 +114,7 @@ particlesJS('particles-js', {
 		"background_size": "cover"
 	}
 });
+
+// $(window).scroll(function(){
+//     $(".title").css("opacity",  $(window).scrollTop() / 250);
+//   });
