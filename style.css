@@ -38,6 +38,12 @@ a:hover {
   background: rgba(0, 0, 0, 0.56);
   height: 1000px;
 }
+#about{
+    background: #a8ff78;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 .skills {
   background:url("https://webdevtrick.com/wp-content/uploads/coding.jpg");
   background-size: cover;
@@ -104,6 +110,18 @@ background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, F
     background-position: 0% 50%;
   }
 }
+#particles-js{
+    /* margin: 0;
+    padding: 0;
+    height: 100vh; */
+    z-index: -1;
+    height: 100%;
+
+    background: #780206;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061161, #780206);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061161, #780206); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
 
 .title {
   padding-bottom: 10px;
@@ -165,8 +183,9 @@ background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, F
   font-size: 2em;
   display:block;
   margin: 0 auto;
-  color: #212121;
+  color: white;
   padding-bottom: 60px;
+  z-index: 1;
 }
 .well {
   min-height: 300px;
