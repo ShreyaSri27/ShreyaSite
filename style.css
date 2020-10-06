@@ -168,8 +168,12 @@ a:hover {
   /* background: linear-gradient(to right, #89253e, #3a6186); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   */ */
 }
-
+.titles1{
+  position: relative;
+  margin-top: 150px;
+}
 #title {
+  /* omargin-top: 200px; */
   font-size: 6.5em;
   padding-bottom: 15px;
 }
@@ -226,7 +230,10 @@ a:hover {
 .well {
   min-height: 300px;
 }
-
+.hi2 {
+  width: 9%;
+  height: 9%;
+}
 .border {
   border-style: solid;
   border-width: 3px;
