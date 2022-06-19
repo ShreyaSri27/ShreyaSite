@@ -170,7 +170,8 @@ a:hover {
 }
 .titles1{
   position: relative;
-  margin-top: 150px;
+  /* position: absolute; */
+  margin-top: 250px;
 }
 #title {
   /* omargin-top: 200px; */
@@ -264,9 +265,9 @@ a:hover {
 }
 
 #qualif {
-  font-size: 3em;
-  color: #ff2a4a;
-}
+  font-size: 2em;
+  color: #f74e68;
+ }
 
 footer {
   background: #5614B0;
@@ -401,8 +402,8 @@ footer {
 }
 
 #jobDesc {
-  font-size: 20px;
-  width: 50%;
+  font-size: 30px;
+  /* width: 50%; */
 }
 
 #liveDemo {
